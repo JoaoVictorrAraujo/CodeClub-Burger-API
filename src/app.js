@@ -3,7 +3,9 @@ import routes from "./routes";
 import {resolve} from 'path'
 import cors from 'cors'
 
+
 import './database'
+
 class App {
   constructor() {
     this.app = express(); //disponibiliza com o this para exportar o express fora do constructor
